@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion'
+import pcImage from '../assets/pc.png'
 
 const Home = () => {
   return (
@@ -20,9 +21,9 @@ const Home = () => {
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
         transition={{ duration: 0.5, delay: 0.2 }}
-        src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Laptop.png"
-        alt="Programming Setup"
-        className="w-64 h-64 md:w-96 md:h-96 object-contain"
+        src={pcImage}
+        alt="PC Setup"
+        className="w-72 h-72 md:w-[28rem] md:h-[28rem] object-contain"
       />
     </motion.div>
   )
