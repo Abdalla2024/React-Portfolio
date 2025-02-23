@@ -26,7 +26,7 @@ const Contact = () => {
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
-      className="max-w-2xl mx-auto"
+      className="max-w-2xl mx-auto mb-24"
     >
       <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-8">Contact Me</h1>
       

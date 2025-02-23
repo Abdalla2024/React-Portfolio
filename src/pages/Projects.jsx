@@ -29,7 +29,7 @@ const Projects = () => {
   ]
 
   return (
-    <div className="w-full">
+    <div className="w-full mb-24">
       <div className="text-center mb-12">
         <h2 className="text-4xl font-black mt-2">
           Projects

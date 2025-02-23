@@ -26,7 +26,7 @@ function App() {
           <Projects />
         </section>
 
-        <section id="contact" className="min-h-screen w-full">
+        <section id="contact" className="w-full py-16">
           <Contact />
         </section>
       </div>
