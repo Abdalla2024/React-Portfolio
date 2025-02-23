@@ -14,7 +14,7 @@ const Home = () => {
           Hi, I'm <span className="text-blue-600">Abdalla Abdelmagid</span>
         </h1>
         <p className="text-xl md:text-2xl text-gray-600 dark:text-gray-300">
-          Web Developer | Designer | Creative Thinker
+          Full Stack Developer | Designer | Creative Thinker
         </p>
       </div>
       <motion.img
