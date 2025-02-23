@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import filmfocus from '../assets/filmfocus.png'
 import nvolve from '../assets/nvolve.png'
+import marketplace from '../assets/marketplace.png'
 
 const Projects = () => {
   const projects = [
@@ -8,7 +9,7 @@ const Projects = () => {
       title: 'University Marketplace',
       description: '(In Progress) Online marketplace for students only. Students login with their university email and have a safe and convenient place to buy and sell items.',
       technologies: ['MERN Stack', 'Tailwind CSS', 'Firebase'],
-      image: '/project1.jpg',
+      image: marketplace,
       link: 'https://github.com/Abdalla2024/COSC484_Project'
     },
     {
