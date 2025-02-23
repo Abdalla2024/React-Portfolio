@@ -50,11 +50,11 @@ const Projects = () => {
             transition={{ delay: index * 0.1 }}
             className="bg-[#151030] rounded-2xl p-5 h-full"
           >
-            <div className="relative w-full h-[230px] mb-5">
+            <div className="relative w-full h-[260px] mb-5">
               <img
                 src={project.image}
                 alt={project.title}
-                className="w-96 h-full object-cover rounded-2xl"
+                className="w-full h-full object-cover rounded-2xl"
               />
             </div>
 
